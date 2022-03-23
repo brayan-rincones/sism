@@ -11,7 +11,7 @@ const FooterComponent = () => {
             <img src={logoFoot} id='footLogo'/>
         </Grid>
         <Grid item xs={3}>
-            
+            <br></br>
             Tel: 
             <br></br>
             (5)4394152 - 4394153 Santa Marta D.T.C.H.

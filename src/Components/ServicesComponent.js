@@ -22,7 +22,7 @@ export default function ServicesComponent() {
       <div className='row'>
         <h4 className='font'>
             <br></br>
-          <b>Nuestros Servicios.</b>
+          <span id='ourServices'>Nuestros Servicios</span>
         </h4>
         <div className="service">
             <div className='col s12 m3'>
@@ -104,6 +104,8 @@ export default function ServicesComponent() {
                 <h5 className='font'>Dispensación de Medicamentos</h5>
             </div>
         </div>
+        <br></br>
+        
 
         
         <div className="service">
@@ -123,6 +125,7 @@ export default function ServicesComponent() {
         <br></br>
         <br></br>
         <br></br>
+        
 
         
         <div className="service">
@@ -131,6 +134,8 @@ export default function ServicesComponent() {
                 <h5 className='font'>Psicología</h5>
             </div>
         </div>
+        <br></br>
+        <br></br>
 
         
         <div className="service">
@@ -139,6 +144,7 @@ export default function ServicesComponent() {
                 <h5 className='font'>Terapia Respiratoria</h5>
             </div>
         </div>
+        
 
         
         <div className="service">
@@ -147,6 +153,8 @@ export default function ServicesComponent() {
                 <h5 className='font'>Detección Temprana y Protección Específica</h5>
             </div>
         </div>
+        <br></br>
+        
 
         
         <div className="service">

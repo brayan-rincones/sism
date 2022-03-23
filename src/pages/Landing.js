@@ -19,7 +19,6 @@ const Landing = () => {
       <HelpComponent />
       {/* <MapComponent /> */}
       <FooterComponent />
-      <LoginComponent />
     </div>
   )
 }

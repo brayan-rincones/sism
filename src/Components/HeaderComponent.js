@@ -22,7 +22,7 @@ export default class HeaderComponent extends Component {
                 <div class="card-image">
                   <img id="agenda" src={ag} />
                   {/* <span class="card-title">Agende su cita</span> */}
-                  <button type="button">Agendar Cita</button>
+                  <button type="button" onClick={() => document.location.href = "http://localhost:3000/Login"}>Agendar Cita</button>
                 </div>
                 <div class="card-content">
                   <p>Agende su cita de manera sencilla y rapida.</p>

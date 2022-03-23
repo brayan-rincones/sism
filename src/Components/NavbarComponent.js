@@ -1,25 +1,36 @@
 import React from 'react';
 import { AppBar, Avatar, Button, Toolbar } from '@material-ui/core';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 import 'materialize-css/dist/css/materialize.min.css';
 import logo from '../asset/logosism.png'
-// import './src/App.css'
+import Rutas from '../Rutas';
+import Login from '../pages/Login';
+
+
 
 
 const NavbarComponent = () => {
   return (
     <AppBar> 
         <Toolbar className='tool'>    
-            <img src={ logo} alt='logo' class="logoImg" />
-            <span id='acro'>SISM</span>
-            <Button id='loginBtn'  variant='contained' >Iniciar Sesión</Button>
-            <Button id='signupBtn' color='primary' variant='contained'>Registrarse</Button>
+            <img src={ logo} alt='logo' class="logoImg" onClick={() => document.location.href = "http://localhost:3000/"}/>
+            <span id='acro' onClick={() => document.location.href = "http://localhost:3000/"}>SISM</span>
+            <Button id='loginBtn'  
+                    variant='contained' 
+                    onClick={() => document.location.href = "http://localhost:3000/Login"}>
+                      Iniciar Sesión</Button>
+            <Button id='signupBtn' 
+            color='primary' variant='contained' 
+            onClick={() => document.location.href = "http://localhost:3000/Login"}>Registrarse</Button>
         </Toolbar>
     </AppBar>
   )
 }
 
 export default NavbarComponent
+
+
 
 // export default class NavbarComponent extends Component {
 
